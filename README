@@ -1,0 +1,16 @@
+
+This is a demo to learn about localStorage and Offline API of HTML5.
+
+I would like to make a very simple app to change have notes with or without internet.
+
+When the browser is online, if have omething on localStorage goes using JSON to a MySQL database and clean localStorage.
+
+When the browser is offline,add some data to localstorage.
+
+Use the code as you want but respect the author putting my authority! If there are any questios, email me!
+
+TODO:
+
+- Try with navigator.connection.type if can I know if is connected to internet.
+
+
