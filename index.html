@@ -15,7 +15,7 @@
  <link href="websql.css" rel="stylesheet" type="text/css" />
      <script type="text/javascript" src="localCache.js"></script>
      <script type="text/javascript" src="jquery-1.7.1.js"></script>
-     <!--<script type="text/javascript" src="localStorage.js"></script>-->
+     <<script type="text/javascript" src="localStorage.js"></script>
 </head>
 <body>
 	<header> 
@@ -32,9 +32,9 @@
 
 	<ul id="todoItems"></ul>
     <input type="text" id="todo" name="todo" placeholder="What do you need to do?" style="width: 200px;" />
-    <input type="submit" value="Add Todo Item" onclick="addTodo(); return false;"/>
+    <input id="submit" type="submit" value="Add Todo Item" />
 	<div id="notes"></div>
-	<div id="todo"></div>
+	<div id="todos"></div>
 </body>
 </html>
 
